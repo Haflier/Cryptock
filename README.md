@@ -188,11 +188,12 @@ The project includes unit and integration tests covering:
 
 ## Usage
 
-first you need to get two api keys:
-1.Telegram bot api key(get via https://t.me/BotFather)
-2.TwelveData api key(get via https://twelvedata.com/account/api-keys)
+First you need to get two api keys:
 
-then inside src/TradingBot.Presentation/appsettings.json replace them with <YOUR-API-KEY> sections.
+* 1.**Telegram** bot api key(get via https://t.me/BotFather)
+* 2.**TwelveData** api key(get via https://twelvedata.com/account/api-keys)
+
+Then inside `src/TradingBot.Presentation/appsettings.json` replace them with YOUR-API-KEY sections.
 
 Run the complete test suite with:
 
