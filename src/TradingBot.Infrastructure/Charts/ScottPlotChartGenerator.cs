@@ -30,9 +30,6 @@ public sealed class ScottPlotChartGenerator(
         /*
          * Determine the candle width from the actual spacing
          * between candles.
-         *
-         * The previous implementation used a fixed 1-minute width,
-         * which made 4h candles appear extremely thin.
          */
         var candleWidth =
             GetCandleWidth(data);
@@ -162,9 +159,6 @@ public sealed class ScottPlotChartGenerator(
         plot.Title(
             $"{data.Symbol.Value}");
         plot.Axes.Title.Label.FontSize = 30;
-
-        //plot.XLabel("Time");
-        //plot.YLabel("Price");
 
         plot.ShowLegend();
 

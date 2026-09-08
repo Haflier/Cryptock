@@ -222,9 +222,6 @@ public sealed class ChartService(
             Timeframe.OneWeek =>
                 TimeSpan.FromDays(7),
 
-            Timeframe.OneMonth =>
-                TimeSpan.FromDays(31),
-
             _ =>
                 TimeSpan.FromHours(1)
         };
