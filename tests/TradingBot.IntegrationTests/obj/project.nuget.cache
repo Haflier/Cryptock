@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K/th60EtffhKuxFpcTGhJxvargXNSAx13CnD5O10YeB28wT57RNjtBmH1SIe7WMkjY02XT5mwOWREPwkpQvgSA==",
+  "dgSpecHash": "0H/5EdXyBeVL1GovD0SyGRNesP+s/5TYzzZQHtS2/vMchCbcie3lrJ1lJvuIP4vGD0zUqcCk9UH8G/snhmXLog==",
   "success": true,
   "projectFilePath": "/home/huj/code/TradingBot/tests/TradingBot.IntegrationTests/TradingBot.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -93,7 +93,7 @@
     "/home/huj/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/home/huj/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "/home/huj/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512",
-    "/home/huj/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.29/microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512"
+    "/home/huj/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.30/microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
   ],
   "logs": []
 }

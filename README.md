@@ -186,6 +186,14 @@ The project includes unit and integration tests covering:
 * Chart generation
 * Telegram handling
 
+## Usage
+
+first you need to get two api keys:
+1.Telegram bot api key(get via https://t.me/BotFather)
+2.TwelveData api key(get via https://twelvedata.com/account/api-keys)
+
+then inside src/TradingBot.Presentation/appsettings.json replace them with <YOUR-API-KEY> sections.
+
 Run the complete test suite with:
 
 ```bash
@@ -196,6 +204,12 @@ Build the project with:
 
 ```bash
 dotnet build
+```
+
+Run the project in root folder(inside TradingBot):
+
+```bash
+dotnet run --project src/TradingBot.Presentation --environment Development
 ```
 
 

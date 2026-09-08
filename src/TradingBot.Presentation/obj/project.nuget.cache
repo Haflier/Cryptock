@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iF1ja1zgLu396JJBkIYP/ftRPf6ANuv3ybmdYPfchxcAOcDUVKfcafqiOroX7DIyr2kay+RfHZI5ymJWbMF1Yw==",
+  "dgSpecHash": "uwlQ7KegtgNrHd2GHt5aacE+RW24+YVxme/9zN0L1QwTJWYr65na9pYgGuDrSG1VsSYOGB9SOi+YAzz1r3fJ1Q==",
   "success": true,
   "projectFilePath": "/home/huj/code/TradingBot/src/TradingBot.Presentation/TradingBot.Presentation.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,7 @@
     "/home/huj/.nuget/packages/system.diagnostics.diagnosticsource/10.0.11/system.diagnostics.diagnosticsource.10.0.11.nupkg.sha512",
     "/home/huj/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
     "/home/huj/.nuget/packages/telegram.bot/22.8.0/telegram.bot.22.8.0.nupkg.sha512",
-    "/home/huj/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.29/microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512"
+    "/home/huj/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.30/microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
   ],
   "logs": []
 }

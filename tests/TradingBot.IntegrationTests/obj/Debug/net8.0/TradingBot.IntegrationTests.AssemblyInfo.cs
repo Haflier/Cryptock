@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradingBot.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b341c8701bba71b3219407192ae069ad47517fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cc6475e2825839cd1012d85198891ebd27fc7db")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradingBot.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradingBot.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
