@@ -128,32 +128,6 @@ TradingBot
     └── TradingBot.IntegrationTests/
 ```
 
-
-```text
-Telegram command
-       ↓
-   ChartRequest
-       ↓
-  SymbolResolver
-       ↓
-ProviderResolver
-       ↓
-PriceDataProvider
-       ↓
-     Candles
-       ↓
-   SMA Calculator
-       ↓
-    ChartData
-       ↓
-  ChartGenerator
-       ↓
- GeneratedChart
-       ↓
- TelegramSender
-```
-
-
 ## Market Data
 
 Currently supported providers include:
