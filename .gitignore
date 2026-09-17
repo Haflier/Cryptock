@@ -5,3 +5,6 @@
 *.user
 *.suo
 **/appsettings.Development.json
+
+**/bin/
+**/obj/
