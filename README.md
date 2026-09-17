@@ -2,10 +2,6 @@
 
 A modular **cryptocurrency market analysis bot** that retrieves market data, calculates technical indicators, generates professional candlestick charts, and delivers them through Telegram.
 
-### Generated Chart
-
-![Generated market chart](screenshots/chart-btc-1d.jpg)
-
 ### Telegram Response
 
 ![Telegram bot response](screenshots/telegram-bot-response.jpg)
