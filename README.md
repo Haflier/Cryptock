@@ -1,16 +1,12 @@
 # Cryptock
 
-A modular **cryptocurrency market analysis bot** that retrieves market data, calculates technical indicators, generates professional candlestick charts, and delivers them through Telegram.
-
-### Telegram Response
-
-![Telegram bot response](screenshots/telegram-bot-response.jpg)
+A modular **cryptocurrency market analysis bot** that retrieves market data, calculates technical indicators, generates candlestick charts, and delivers them through Telegram.
 
 ## Features
 
 * 📊 Candlestick charts with configurable SMA
-* 📈 Multiple timeframes: `1m`, `5m`, `15m`, `1h`, `4h`, `1d`, `1w`
-* 💹 Cryptocurrency and stock/index market data
+* ⌚ Multiple timeframes: `1m`, `5m`, `15m`, `1h`, `4h`, `1d`, `1w`
+* 🪙 Cryptocurrency and stock market data
 * 🤖 Telegram bot interface
 * 🧩 Clean separation between Domain, Application, Infrastructure, and Presentation
 * 🧪 Unit and integration tests
@@ -38,6 +34,17 @@ Other examples:
 ```
 
 The bot returns the chart together with the latest price and 24-hour information.
+
+![Telegram bot response](screenshots/telegram-bot-response.jpg)
+
+## Market Data
+
+Currently supported providers include:
+
+* **Binance** — cryptocurrency market data
+* **Twelve Data** — stocks, indices, and additional market data
+
+The provider resolver selects the appropriate provider based on the requested asset.
 
 ## Architecture
 
@@ -124,14 +131,7 @@ TradingBot
     └── TradingBot.IntegrationTests/
 ```
 
-## Market Data
 
-Currently supported providers include:
-
-* **Binance** — cryptocurrency market data
-* **Twelve Data** — stocks, indices, and additional market data
-
-The provider resolver selects the appropriate provider based on the requested asset.
 
 ## Technology
 
@@ -156,7 +156,7 @@ The project includes unit and integration tests covering:
 * Chart generation
 * Telegram handling
 
-## Usage
+## Usage and Configurations
 
 First you need to get two api keys:
 
@@ -164,6 +164,11 @@ First you need to get two api keys:
 * 2.**TwelveData** api key(get via https://twelvedata.com/account/api-keys)
 
 Then inside `src/TradingBot.Presentation/appsettings.json` replace them with YOUR-API-KEY sections.
+
+(Optional)
+Go inside `src/TradingBot.Application/Services/TelegramBotHandler.cs` lines in range 37-50 represent the message that will be shown to user after /start request, you may wanna change it espicially replacing your telegram bot id with existing one.
+
+Then go inside root folder(inside Cryptock):
 
 Run the complete test suite with:
 
@@ -177,12 +182,13 @@ Build the project with:
 dotnet build
 ```
 
-Run the project in root folder(inside TradingBot):
+Run the project with:
 
 ```bash
 dotnet run --project src/TradingBot.Presentation --environment Development
 ```
 
+Now you can go to your telegram bot and send requests(what mentioned in Telegram usage).
 
 ## Project Status
 
