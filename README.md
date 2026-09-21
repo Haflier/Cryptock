@@ -1,6 +1,10 @@
 # Cryptock
 
-A modular **cryptocurrency market analysis bot** that retrieves market data, calculates technical indicators, generates candlestick charts, and delivers them through Telegram.
+> **A modular cryptocurrency market analysis bot that retrieves market data, calculates technical indicators, generates candlestick charts, and delivers them through Telegram**
+
+![Generated Chart](screenshots/chart-btc-1d.jpg)
+
+---
 
 ## Features
 
@@ -10,32 +14,6 @@ A modular **cryptocurrency market analysis bot** that retrieves market data, cal
 * 🤖 Telegram bot interface
 * 🧩 Clean separation between Domain, Application, Infrastructure, and Presentation
 * 🧪 Unit and integration tests
-
-## Telegram Usage
-
-Start the bot with:
-
-```text
-/start
-```
-
-Generate a chart:
-
-```text
-/chart BTC 4h
-```
-
-Other examples:
-
-```text
-/chart ETH 1h
-/chart BTC 1d
-/chart AAPL 1d
-```
-
-The bot returns the chart together with the latest price and 24-hour information.
-
-![Telegram bot response](screenshots/telegram-bot-response.jpg)
 
 ## Market Data
 
@@ -194,7 +172,29 @@ Run the project with:
 dotnet run --project src/TradingBot.Presentation --environment Development
 ```
 
-Now you can go to your telegram bot and send requests(what mentioned in Telegram usage).
+Now go to your telegram bot and start the bot with:
+
+```text
+/start
+```
+
+Generate a chart:
+
+```text
+/chart BTC 4h
+```
+
+Other examples:
+
+```text
+/chart ETH 1h
+/chart BTC 1d
+/chart AAPL 1d
+```
+
+The bot returns the chart together with the latest price and 24-hour information.
+
+![Telegram bot response](screenshots/telegram-bot-response.jpg)
 
 ## Project Status
 
