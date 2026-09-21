@@ -156,14 +156,20 @@ The project includes unit and integration tests covering:
 * Chart generation
 * Telegram handling
 
-## Usage and Configurations
+## Setup and Configurations
 
-First you need to get two api keys:
+First clone the project:
+
+```bash
+git clone https://github.com/Haflier/Cryptock.git
+```
+
+Then you need to get two api keys:
 
 * 1.**Telegram** bot api key(get via https://t.me/BotFather)
 * 2.**TwelveData** api key(get via https://twelvedata.com/account/api-keys)
 
-Then inside `src/TradingBot.Presentation/appsettings.json` replace them with YOUR-API-KEY sections.
+Now inside `src/TradingBot.Presentation/appsettings.json` replace them with YOUR-API-KEY sections.
 
 (Optional)
 Go inside `src/TradingBot.Application/Services/TelegramBotHandler.cs` lines in range 37-50 represent the message that will be shown to user after /start request, you may wanna change it espicially replacing your telegram bot id with existing one.
