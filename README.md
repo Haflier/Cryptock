@@ -172,7 +172,7 @@ Then you need to get two api keys:
 Now inside `src/TradingBot.Presentation/appsettings.json` replace them with YOUR-API-KEY sections.
 
 (Optional)
-Go inside `src/TradingBot.Application/Services/TelegramBotHandler.cs` lines in range 37-50 represent the message that will be shown to user after /start request, you may wanna change it espicially replacing your telegram bot id with existing one.
+Go inside `src/TradingBot.Application/Services/TelegramBotHandler.cs` lines in range 37-50 represent the message that will be shown to user after /start request, you may wanna change them especially putting your telegram bot id instead of existing one(@Cryptockerbot that is mine).
 
 Then go inside root folder(inside Cryptock):
 
