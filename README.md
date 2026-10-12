@@ -1,19 +1,31 @@
-# Cryptock
+<p align="center">
+  <img src="docs/optinull-logo.png" alt="Optinull" width="600">
+</p>
 
-> **A modular cryptocurrency market analysis bot that retrieves market data, calculates technical indicators, generates candlestick charts, and delivers them through Telegram**
+<p align="center">
+  <strong>A modular cryptocurrency market analysis.</strong><br/>
+  Retrieves market data, calculates technical indicators, generates candlestick charts, and delivers them through Telegram
+</p>
 
-![Generated Chart](screenshots/chart-btc-1d.jpg)
+<p align="center">
+  <img alt=".NET 8" src="https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white" />
+  <img alt="C#" src="https://img.shields.io/badge/C%23-12-239120?logo=csharp&logoColor=white" />
+  <img alt="Telegram" src="https://img.shields.io/badge/interface-Telegram-26A5E4?logo=telegram&logoColor=white" />
+  <img alt="Binance API" src="https://img.shields.io/badge/crypto%20exchange-Binance-F0B90B?logo=binance&logoColor=black" />
+  <img alt="Twelve Data API" src="https://img.shields.io/badge/market%20data-Twelve%20Data-1E90FF?logo=databricks&logoColor=white" />
+  <img alt="Status" src="https://img.shields.io/badge/status-work%20in%20progress-orange" />
+</p>
 
 ---
 
 ## Features
 
-* 📊 Candlestick charts with configurable SMA
-* ⌚ Multiple timeframes: `1m`, `5m`, `15m`, `1h`, `4h`, `1d`, `1w`
-* 🪙 Cryptocurrency and stock market data
-* 🤖 Telegram bot interface
-* 🧩 Clean separation between Domain, Application, Infrastructure, and Presentation
-* 🧪 Unit and integration tests
+* Candlestick charts with configurable SMA
+* Multiple timeframes: `1m`, `5m`, `15m`, `1h`, `4h`, `1d`, `1w`
+* Cryptocurrency and stock market data
+* Telegram bot interface
+* Clean separation between Domain, Application, Infrastructure, and Presentation
+* Unit and integration tests
 
 ## Market Data
 
@@ -108,19 +120,6 @@ TradingBot
     │
     └── TradingBot.IntegrationTests/
 ```
-
-
-
-## Technology
-
-* **.NET 8**
-* **C#**
-* **ASP.NET Core / Generic Host**
-* **ScottPlot 5**
-* **Telegram.Bot**
-* **Twelve Data API**
-* **Binance API**
-* **xUnit**
 
 ## Testing
 
