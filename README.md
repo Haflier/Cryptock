@@ -193,7 +193,7 @@ Other examples:
 
 The bot returns the chart together with the latest price and 24-hour information.
 
-![Telegram bot response](screenshots/telegram-bot-response.jpg)
+![Telegram bot response](docs/images/screenshots/telegram-bot-response.jpg)
 
 ## Project Status
 
