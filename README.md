@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/logo/cryptock-logo.png" alt="Cryptock" width="600">
+  <img src="docs/images/logo/cryptock-logo.webp" alt="Cryptock" width="600">
 </p>
 
 <p align="center">
@@ -193,7 +193,7 @@ Other examples:
 
 The bot returns the chart together with the latest price and 24-hour information.
 
-![Telegram bot response](docs/images/screenshots/telegram-bot-response.jpg)
+![Telegram bot response](docs/images/screenshots/telegram-bot-response.webp)
 
 ## Project Status
 
